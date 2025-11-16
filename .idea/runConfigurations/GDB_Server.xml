@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GDB Server" type="CLion_Remote" version="1" remoteCommand="127.0.0.1:8484" symbolFile="$PROJECT_DIR$/gdb/AlfIPbus" sysroot="">
+    <debugger kind="GDB" isBundled="true" />
+    <pathMapping remote=":/ALFIPbus/src" local="$PROJECT_DIR$/src" />
+    <pathMapping remote=":/ALFIPbus/DimRpcParallel/src" local="$PROJECT_DIR$/DimRpcParallel/src" />
+    <pathMapping remote=":/ALFIPbus/inc" local="$PROJECT_DIR$/inc" />
+    <pathMapping remote=":/ALFIPbus/DimRpcParallel/include" local="$PROJECT_DIR$/DimRpcParallel/include" />
+    <method v="2">
+      <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_alf copy" />
+    </method>
+  </configuration>
+</component>
