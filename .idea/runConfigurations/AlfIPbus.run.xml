@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AlfIPbus" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-n &quot;ALF_FV0&quot; -l &quot;127.0.0.1:50001&quot; -f &quot;$PROJECT_DIR$/../scripts/docker/common-storage/output/alf-ipbus-log&quot; -t 1000" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AlfIPbus" TARGET_NAME="AlfIPbus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AlfIPbus" RUN_TARGET_NAME="AlfIPbus">
+    <envs>
+      <env name="DIM_DNS_NODE" value="192.168.0.131" />
+      <env name="DIM_HOST_NODE" value="alf.test" />
+    </envs>
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
